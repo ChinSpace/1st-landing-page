@@ -3,9 +3,8 @@ body {
    flex-direction: column;
    justify-content: center;
    margin: 0 50px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-
 
 .header {
     background-color: #1f2937;
@@ -32,12 +31,12 @@ a {
 }
 
 .left {
-    font-size: 24px;
+    font-size: 28px;
     margin: 0;
 }
 
 .right {
-    font-size: 14px;
+    font-size: 23px;
     color: #e5e7eb;
     margin: 0;
 }
@@ -45,7 +44,7 @@ a {
 .main {
     display: flex;
     flex-direction: row;
-    padding: 30px 75px;
+    padding: 70px 75px;
     background-color: #1f2937;
     color: #f9faf8;
     flex: 1;
@@ -57,16 +56,15 @@ a {
     flex-direction: column;
     justify-content: center;
     width: 450px;
-
+    flex:auto;
 }
-
-
 
 img {
     display: flex;
     justify-content: flex-end;
     width: 450px;
     height: 450px;
+    flex: auto;
 }
 
 h1 {
@@ -76,14 +74,146 @@ h1 {
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 30px;
     margin: 0;
 }
 
+p {
+    font-size: 25px;
+}
+
 .button1 {
-    width: 100px;
+    width: 200px;
+    padding: 5px;
     border-radius: 8px;
     border: none;
     background: #3882f6;
     color: #f9faf8;
+    font-size: 25px;
+}
+
+.trainings1 {
+    background-color: #f9faf8;
+    color: #1f2937 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 75px;
+    align-items: center;
+    flex: 1;
+}  
+
+.training-text h3{
+    padding: 18px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.trainings {
+    max-width: 500px;
+}
+
+.trainingimage {
+    display: flex;
+    justify-content: center;
+    flex: auto ;
+    gap: 32px;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    border: solid black;
+    flex: auto ;
+}   
+
+.text {
+    text-align: center;
+    font-size: 25px;
+    width: 300px;
+}
+
+.quote-section {
+    background-color:#e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 75px;
+    align-items: center;
+    flex: 1;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+
+.quote-by {
+    align-self: flex-end;
+    padding-right: 32px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.call-to-action {
+    background-color: #f9faf8;
+    color: #1f2937 ;
+    display: flex;
+    padding: 45px 0px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 100%;
+    flex: 1;
+
+}
+
+.last {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding: 0;
+    border-radius: 8px;
+    border: none;
+    background: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    justify-content: space-around;
+    
+}
+
+.button2 {
+   align-self: center;
+    width: auto;
+    height: max-content;
+    border-radius: 8px;
+    border: solid #f9faf8;
+    background:none;
+    color: #f9faf8;
+    font-size: 25px;
+    padding: 3px 18px;
+    margin-right: 70px;
+    border-width: thin;
+    
+}
+
+.lastleft {
+    margin: 32px 50px;
+}
+
+.lastleft p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.lastleft h5 {
+    margin-bottom: 0;
+    font-size: 30px;
+    margin-top: 0;
 }
